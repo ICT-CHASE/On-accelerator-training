@@ -1,4 +1,0 @@
-tools/caffe.cpp: In function ‘int test()’:
-tools/caffe.cpp:271:7: warning: unused variable ‘xkz0’ [-Wunused-variable]
-   int xkz0=memoryCreat();
-       ^

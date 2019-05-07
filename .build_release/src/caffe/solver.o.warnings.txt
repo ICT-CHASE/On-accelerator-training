@@ -1,8 +1,0 @@
-src/caffe/solver.cpp: In instantiation of ‘void caffe::Solver<Dtype>::Solve(const char*) [with Dtype = float]’:
-src/caffe/solver.cpp:492:1:   required from here
-src/caffe/solver.cpp:278:7: warning: unused variable ‘xkz0’ [-Wunused-variable]
-   int xkz0=memoryCreat();
-       ^
-src/caffe/solver.cpp: In instantiation of ‘void caffe::Solver<Dtype>::Solve(const char*) [with Dtype = double]’:
-src/caffe/solver.cpp:492:1:   required from here
-src/caffe/solver.cpp:278:7: warning: unused variable ‘xkz0’ [-Wunused-variable]
