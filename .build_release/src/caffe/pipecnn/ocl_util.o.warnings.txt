@@ -1,0 +1,4 @@
+src/caffe/pipecnn/ocl_util.cpp: In function ‘void* ocl_util::alignedMalloc(size_t, size_t)’:
+src/caffe/pipecnn/ocl_util.cpp:463:43: warning: ignoring return value of ‘int posix_memalign(void**, size_t, size_t)’, declared with attribute warn_unused_result [-Wunused-result]
+  posix_memalign (&result, alignment, size);
+                                           ^

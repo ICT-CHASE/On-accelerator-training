@@ -1,0 +1,28 @@
+name: "ResNet-18"
+
+layer {
+    name: "data"
+    type: "Data"
+    top: "data"
+    top: "label"
+    transform_param {
+        mirror: false
+        crop_size: 224
+        mean_value: 104
+        mean_value: 117
+        mean_value: 123
+        scale: 0.00390625
+    }
+    data_param {
+    source: "data/ImageNetData/val_lmdb"
+    batch_size: 100
+    backend: LMDB
+    }
+}
+
+layer {
+    bottom: "data"
+    bottom: "label"
+    name: "image_output"
+    type: "ImageOutput"
+}

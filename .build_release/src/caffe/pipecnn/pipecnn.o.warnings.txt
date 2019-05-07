@@ -1,0 +1,32 @@
+src/caffe/pipecnn/pipecnn.cpp: In function ‘int memoryCreat()’:
+src/caffe/pipecnn/pipecnn.cpp:288:25: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+  char *kernel_file_name="/home/xingkouzi/caffe/caffe-pipecnn-alexnet/binary_container_1.xclbin";//param[1];
+                         ^
+src/caffe/pipecnn/pipecnn.cpp: In function ‘int pipeCNN(signed char*, signed char*, signed char*)’:
+src/caffe/pipecnn/pipecnn.cpp:1017:11: warning: zero-length gnu_printf format string [-Wformat-zero-length]
+  printf("");
+           ^
+src/caffe/pipecnn/pipecnn.cpp:515:9: warning: variable ‘knl_memWr_global_size’ set but not used [-Wunused-but-set-variable]
+  size_t knl_memWr_global_size[3];
+         ^
+src/caffe/pipecnn/pipecnn.cpp:516:9: warning: variable ‘knl_memWr_local_size’ set but not used [-Wunused-but-set-variable]
+  size_t knl_memWr_local_size[3];
+         ^
+src/caffe/pipecnn/pipecnn.cpp:521:8: warning: variable ‘time’ set but not used [-Wunused-but-set-variable]
+  float time;
+        ^
+src/caffe/pipecnn/pipecnn.cpp:1020:8: warning: unused variable ‘batch_float’ [-Wunused-variable]
+  float batch_float = float(input_config[batch_size]);
+        ^
+src/caffe/pipecnn/pipecnn.cpp: In function ‘int prepare(signed char*)’:
+src/caffe/pipecnn/pipecnn.cpp:1271:14: warning: variable ‘file_size’ set but not used [-Wunused-but-set-variable]
+     unsigned file_size;
+              ^
+src/caffe/pipecnn/pipecnn.cpp: In function ‘int memoryCreat()’:
+src/caffe/pipecnn/pipecnn.cpp:473:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+src/caffe/pipecnn/pipecnn.cpp: In function ‘int prepare(signed char*)’:
+src/caffe/pipecnn/pipecnn.cpp:1476:40: warning: ignoring return value of ‘char* fgets(char*, int, FILE*)’, declared with attribute warn_unused_result [-Wunused-result]
+         fgets(synset_buf[nn], 1024, fp);
+                                        ^
