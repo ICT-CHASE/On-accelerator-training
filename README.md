@@ -9,5 +9,5 @@ How to use:
 
 2、修改Makefile中的SDAccel的安装路径。
 
-3、运行alexNet/alexnet.sh即可执行inference。
+3、运行alexNet/alexnet.sh即可执行AlexNet的inference。
 
