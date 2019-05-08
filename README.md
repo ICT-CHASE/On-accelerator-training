@@ -11,5 +11,7 @@ How to use:
 
 3、下载AlexNet的Caffe模型至alexNet文件夹。下载地址：http://dl.caffe.berkeleyvision.org/bvlc_reference_caffenet.caffemodel
 
-4、运行alexNet/alexnet.sh即可执行AlexNet的inference。
+4、准备好数据集，并在train_val_caffe.prototxt中修改数据集的路径。
+
+5、运行alexNet/alexnet.sh即可执行AlexNet的inference。
 
