@@ -7,7 +7,7 @@ How to use:
 
 1、安装Caffe所需要的环境和Xilinx SDAccel。
 
-2、修改Makefile中的SDAccel的安装路径。
+2、修改Makefile中的SDAccel的安装路径,终端下输入make all完成Caffe-accelerator的编译。
 
 3、下载AlexNet的Caffe模型至alexNet文件夹。下载地址：http://dl.caffe.berkeleyvision.org/bvlc_reference_caffenet.caffemodel
 
