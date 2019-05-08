@@ -9,5 +9,7 @@ How to use:
 
 2、修改Makefile中的SDAccel的安装路径。
 
-3、运行alexNet/alexnet.sh即可执行AlexNet的inference。
+3、下载AlexNet的Caffe模型至alexNet文件夹。下载地址：http://dl.caffe.berkeleyvision.org/bvlc_reference_caffenet.caffemodel
+
+4、运行alexNet/alexnet.sh即可执行AlexNet的inference。
 
