@@ -405,7 +405,7 @@ endif
 INCLUDE_DIRS += $(BLAS_INCLUDE)
 LIBRARY_DIRS += $(BLAS_LIB)
 
-#xkz
+#Xilinx SDAccel
 INCLUDE_DIRS += /opt/SDx/SDx/2017.1/runtime/include/1_2/
 LIBRARY_DIRS += /opt/SDx/SDx/2017.1/runtime/lib/x86_64/
 LIBRARIES += xilinxopencl
