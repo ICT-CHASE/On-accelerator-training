@@ -1,7 +1,7 @@
 # Caffe-accelerator
 About：
 
-Caffe-accelerator是一个基于caffe和CNN accelerator的联合训练框架。其中CNN accelerator负责前向传播算法，剩余部分由Caffe框架完成。结合Xilinx SDAccel和Caffe，实现FPGA和CPU的切换。通过Xilinx SDAccel环境对CNN accelerator进行编译，其中CNN accelerator可以由用户自定义。本例中的SDAccel的版本为2017.1,CNN accelerator为PipeCNN(https://github.com/doonny/PipeCNN)。
+Caffe-accelerator是一个基于caffe和CNN accelerator的联合训练框架。其中CNN accelerator负责前向传播算法，剩余部分由Caffe框架完成。结合Xilinx SDAccel和Caffe，实现FPGA和CPU的切换。通过Xilinx SDAccel环境对CNN accelerator进行编译，其中CNN accelerator可以由用户自定义。本例中的SDAccel的版本为2017.1,CNN accelerator为PipeCNN，binary_container_1.xclbin为PipeCNN编译过后的二进制文件。(https://github.com/doonny/PipeCNN)。
 
 How to use:
 
