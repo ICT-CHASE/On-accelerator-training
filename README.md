@@ -1,4 +1,4 @@
-# Neural network training for accelerator with computing errors
+# Neural network training for accelerator with overclocking
 
 Background: With the advancements of neural networks, customized accelerators
 are increasingly adopted in massive AI applications. To gain higher energy
