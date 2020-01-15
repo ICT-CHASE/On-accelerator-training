@@ -1,6 +1,6 @@
 # Neural network training for accelerator with overclocking
 
-Background: With the advancements of neural networks, customized accelerators
+With the advancements of neural networks, customized accelerators
 are increasingly adopted in massive AI applications. To gain higher energy
 efficiency or performance, many hardware design optimizations
 such as near-threshold logic or overclocking can be utilized.
