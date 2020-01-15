@@ -36,7 +36,7 @@ You can compile the model and generate the bistream by yourself.
 6. Run “alexNet/alexnet.sh" to performance the inference.
 
 # Reference:
-[1] Xing, Kouzi, Dawen Xu, Cheng Liu, Ying Wang, Huawei Li and Xiaowei Li, Squeezing the Last MHz for CNN Acceleration on FPGAs, The 3rd International Test Conference in Asia, 2019 (to appear)
+[1] Xing, Kouzi, Dawen Xu, Cheng Liu, Ying Wang, Huawei Li and Xiaowei Li, Squeezing the Last MHz for CNN Acceleration on FPGAs, The 3rd International Test Conference in Asia, 2019
 
-[2] Xu, Dawen, Kouzi Xing, Cheng Liu, Ying Wang, Yulin Dai, Long Cheng, Huawei Li, Lei Zhang, Resilient Neural Network Training for Accelerators with Computing Errors, The 30th IEEE International Conference on Application-specific Systems, Architectures and Processors (ASAP), July 15-17, 2019 (to appear)
+[2] Xu, Dawen, Kouzi Xing, Cheng Liu, Ying Wang, Yulin Dai, Long Cheng, Huawei Li, Lei Zhang, Resilient Neural Network Training for Accelerators with Computing Errors, The 30th IEEE International Conference on Application-specific Systems, Architectures and Processors (ASAP), July 15-17, 2019
 
